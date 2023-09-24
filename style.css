@@ -1,0 +1,166 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #7ab5e9;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 28px;
+    margin: 0;
+}
+
+h3 {
+    font-size: 16px;
+    margin: 0;
+}
+
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.5s ease;
+}
+
+button:hover {
+    background-color: #0074D9;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dark-mode {
+    background-color: #000000; /* Cor de fundo preta */
+    color: #929292; /* Cor do texto branca */
+    /* Outras personalizações de estilo para o modo escuro */
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #0074D9;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem1 {
+    border: 5px solid #333;
+    max-width: 70%;
+}
+
+.image-caption {
+    text-align: center;
+    font-style: italic;
+    color: #555;
+}
+
+footer {
+    background-color: #7ab5e9;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px; /* Reduz o tamanho da fonte geral */
+    }
+
+    header {
+        padding: 10px; /* Reduz o espaço acima e abaixo do cabeçalho */
+    }
+
+    h1 {
+        font-size: 24px; /* Reduz o tamanho do título principal */
+    }
+
+    h3 {
+        font-size: 14px; /* Reduz o tamanho do subtítulo */
+    }
+
+    main {
+        padding: 10px; /* Reduz o espaço ao redor do conteúdo principal */
+    }
+
+    .container1 {
+        flex-direction: column; /* Altera a direção do flex para empilhar verticalmente */
+        text-align: center; /* Centraliza o conteúdo dentro do contêiner */
+    }
+
+    .imagem1 {
+        width: 70%; /* Ajusta a largura da imagem para preencher a largura do contêiner */
+    }
+
+    .image-caption {
+        font-size: 12px; /* Reduz o tamanho da legenda da imagem */
+    }
+}
+
+/* Estilos para telas médias (entre 768px e 1024px) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    body {
+        font-size: 16px; /* Volta ao tamanho de fonte padrão */
+    }
+
+    header {
+        padding: 20px; /* Retorna o espaço acima e abaixo do cabeçalho ao padrão */
+    }
+
+    h1 {
+        font-size: 28px; /* Retorna o tamanho do título principal ao padrão */
+    }
+
+    h3 {
+        font-size: 16px; /* Retorna o tamanho do subtítulo ao padrão */
+    }
+
+    main {
+        padding: 20px; /* Retorna o espaço ao redor do conteúdo principal ao padrão */
+    }
+
+    .container1 {
+        flex-direction: row; /* Retorna a direção do flex ao padrão (horizontal) */
+    }
+
+    .imagem1 {
+        width: 70%; /* Retorna a largura da imagem ao padrão */
+    }
+
+    .image-caption {
+        font-size: 16px; /* Retorna o tamanho da legenda da imagem ao padrão */
+    }
+}
